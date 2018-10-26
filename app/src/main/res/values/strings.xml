@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">GithubClient</string>
+    <string name="app_name">Github Lite</string>
     <string name="title_activity_home">HomeActivity</string>
+    
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_trending">Trending</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="description_profile_pic">Your profile picture</string>
 </resources>
