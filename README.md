@@ -1,2 +1,2 @@
 # github-android
-Please read [this](../blob/master/project_and_code_guidelines.md).
+Please read [this](../master/project_and_code_guidelines.md).
