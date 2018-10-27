@@ -11,5 +11,14 @@
     <string name="bottom_nav_issues">Issues</string>
     <string name="bottom_nav_pull_requests">Pull Requests</string>
 
+    <string name="button_profile_follower">follower</string>
+    <string name="button_profile_following">following</string>
+    <string name="button_profile_reload">reload</string>
+    <string name="text_profile_emoji">¯\_(ツ)_/¯</string>
+    <string name="text_profile_no_repositories">No starred repositories</string>
+    <string name="text_profile_no_follower">No followers</string>
+    <string name="text_profile_no_following">No following</string>
+    <string name="text_profile_no_gists">No gists</string>
+
     <string name="description_profile_pic">Your profile picture</string>
 </resources>
