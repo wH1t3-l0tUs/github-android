@@ -6,7 +6,7 @@
     android:orientation="horizontal"
     android:gravity="bottom">
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="0dp"
         android:layout_height="45dp"
         android:layout_weight="1"

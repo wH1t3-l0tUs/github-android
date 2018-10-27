@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                             mMainToolbar.setTitle(R.string.app_name);
                             break;
                         case R.id.drawer_profile:
-                            newFragment = new Fragment();
+                            newFragment = new ProfileFragment();
                             mMainToolbar.setTitle(menuItem.getTitle());
                             break;
                         case R.id.drawer_trending:
