@@ -10,4 +10,5 @@
   <color name="secondaryTextColor">#ffffff</color>
 
   <color name="black">#000000</color>
+  <color name="grey_icon">#939393</color>
 </resources>
