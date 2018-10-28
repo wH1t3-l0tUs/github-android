@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         actionBar.setHomeAsUpIndicator(R.drawable.ic_menu_hamburger);
 
         final NavigationView navigationView = findViewById(R.id.nav_view);
-        navigationView.setCheckedItem(R.id.drawer_home);
-        mCurrentSelectedItemResId = R.id.drawer_home;
+        navigationView.setCheckedItem(R.id.drawer_item_home);
+        mCurrentSelectedItemResId = R.id.drawer_item_home;
         getSupportFragmentManager().beginTransaction().replace(R.id.layout_main, new HomeFragment()).commit();
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -47,16 +47,16 @@ public class MainActivity extends AppCompatActivity {
                     mCurrentSelectedItemResId = menuItem.getItemId();
                     Fragment newFragment;
                     switch (menuItem.getItemId()) {
-                        case R.id.drawer_home:
+                        case R.id.drawer_item_home:
                             Log.d(TAG, "Home fragment created");
                             newFragment = new HomeFragment();
                             mMainToolbar.setTitle(R.string.app_name);
                             break;
-                        case R.id.drawer_profile:
+                        case R.id.drawer_item_profile:
                             newFragment = new ProfileFragment();
                             mMainToolbar.setTitle(menuItem.getTitle());
                             break;
-                        case R.id.drawer_trending:
+                        case R.id.drawer_item_trending:
                             newFragment = new Fragment();
                             mMainToolbar.setTitle(menuItem.getTitle());
                             break;
